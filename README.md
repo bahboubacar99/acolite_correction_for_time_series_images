@@ -31,4 +31,11 @@ ACOLITE is an open-source software designed for atmospheric correction and the r
 acolite_path = 'chemin/vers/acolite'
 sys.path.append(acolite_path)
 ```
-
+## To clone this repository
+**Install Git LFS if you haven't already done so.**
+``` bash
+git lfs install
+```
+``` bash
+ git clone https://github.com/acolite/acolite.git
+```
