@@ -16,10 +16,14 @@ In this project, we will implement a programme that allows us to browse a series
 **Clone ACOLITE from its official GitHub repository [here](https://github.com/acolite/acolite):**
 ``` bash
  git clone https://github.com/acolite/acolite.git
+```
 **Install the required libraries:**
 ``` bash
- pip install geopandas pyproj ```
+ pip install geopandas pyproj
+```
 **Update the clone path in the script:**
 ``` bash
 acolite_path = 'chemin/vers/acolite'
 sys.path.append(acolite_path)
+```
+
