@@ -8,10 +8,18 @@ In this project, we will implement a programme that allows us to browse a series
 
 ## Prerequisites
 - Python 3.8 or higher
-- ACOLITE cloned locally from GitHub
+- ACOLITE cloned locally from GitHub; which can find [here](https://github.com/acolite/acolite)
 - Sentinel-2 data (L1C level, .SAFE format)
 - Shapefile (.shp or .gpkg) associated with each image or set of images
 
-## The following Python libraries:
+## Installations:
+**Clone ACOLITE from its official GitHub repository [here](https://github.com/acolite/acolite):**
 ``` bash
-  pip install geopandas pyproj 
+ git clone https://github.com/acolite/acolite.git
+**Install the required libraries:**
+``` bash
+ pip install geopandas pyproj 
+**Update the clone path in the script:**
+``` bash
+acolite_path = 'chemin/vers/acolite'
+sys.path.append(acolite_path)
