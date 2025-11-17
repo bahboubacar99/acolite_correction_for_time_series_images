@@ -14,4 +14,4 @@ In this project, we will implement a programme that allows us to browse a series
 
 ## The following Python libraries:
 ``` bash
-  pip install geopandas pyproj ```
+  pip install geopandas pyproj 
