@@ -18,7 +18,7 @@ In this project, we will implement a programme that allows us to browse a series
  git clone https://github.com/acolite/acolite.git
 **Install the required libraries:**
 ``` bash
- pip install geopandas pyproj </br>
+ pip install geopandas pyproj ```
 **Update the clone path in the script:**
 ``` bash
 acolite_path = 'chemin/vers/acolite'
