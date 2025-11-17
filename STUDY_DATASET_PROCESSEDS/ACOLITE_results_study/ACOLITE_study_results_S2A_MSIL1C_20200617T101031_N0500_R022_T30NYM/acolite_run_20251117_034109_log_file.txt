@@ -1,0 +1,293 @@
+2025-11-17 03:41:09: Running ACOLITE processing - Generic GitHub Clone c2024-03-29T13:42:49
+2025-11-17 03:41:09: Python - win32 - 3.11.11 | packaged by conda-forge | (main, Dec  5 2024, 14:06:23) [MSC v.1942 64 bit (AMD64)]
+2025-11-17 03:41:09: Platform - Windows 10 - AMD64 - 10.0.19045
+2025-11-17 03:41:09: Run ID - 20251117_034109
+2025-11-17 03:41:09: Identified G:/BAH_project/Image_sentinel_2/IMAGES_FOR_STUDY_DATASET\S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM\S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM_20230328T060148.SAFE as Sentinel-2 type
+2025-11-17 03:41:09: Starting conversion of 1 scenes
+2025-11-17 03:41:09: Starting conversion of G:/BAH_project/Image_sentinel_2/IMAGES_FOR_STUDY_DATASET\S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM\S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM_20230328T060148.SAFE
+2025-11-17 03:41:09: Importing metadata from L1C_T30NYM_A026045_20200617T102336
+2025-11-17 03:41:09: Reading per pixel geometry
+2025-11-17 03:41:10: Computing band average per detector geometry
+2025-11-17 03:41:10: Detector 1
+2025-11-17 03:41:10: Wrote raa (70, 200)
+2025-11-17 03:41:10: Wrote vza (70, 200)
+2025-11-17 03:41:10: Wrote sza (70, 200)
+2025-11-17 03:41:10: Writing geolocation lon/lat
+2025-11-17 03:41:10: (70, 200)
+2025-11-17 03:41:10: Wrote lon
+2025-11-17 03:41:10: (70, 200)
+2025-11-17 03:41:10: Wrote lat
+2025-11-17 03:41:10: Writing geolocation x/y
+2025-11-17 03:41:10: Wrote xx
+2025-11-17 03:41:10: Wrote yy
+2025-11-17 03:41:10: Converting bands
+2025-11-17 03:41:10: Converting bands: Wrote rhot_443 ((70, 200))
+2025-11-17 03:41:10: Converting bands: Wrote rhot_492 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_560 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_665 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_704 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_740 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_783 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_833 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_865 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_945 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_1373 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_1614 ((70, 200))
+2025-11-17 03:41:11: Converting bands: Wrote rhot_2202 ((70, 200))
+2025-11-17 03:41:11: Conversion took 1.9 seconds
+2025-11-17 03:41:11: Created ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L1R.nc
+2025-11-17 03:41:11: Wrote ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L1R_rgb_rhot.png
+2025-11-17 03:41:11: Running acolite for ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L1R.nc
+2025-11-17 03:41:11: Getting ancillary data for 2020-06-17T10:29:38.496168+00:00 -0.219E 5.530N
+2025-11-17 03:41:11: Downloading file GMAO_MERRA2.20200617T100000.MET.nc
+2025-11-17 03:41:13: Retrying...
+2025-11-17 03:41:15: Downloading file GMAO_MERRA2.20200617T100000.MET.nc failed
+2025-11-17 03:41:16: Downloading file GMAO_MERRA2.20200617T110000.MET.nc
+2025-11-17 03:41:17: Retrying...
+2025-11-17 03:41:19: Downloading file GMAO_MERRA2.20200617T110000.MET.nc failed
+2025-11-17 03:41:20: No ozone file found for 2020-06-17T10:29:38.496168+00:00
+2025-11-17 03:41:20: No NCEP files found for 2020-06-17T10:29:38.496168+00:00
+2025-11-17 03:41:20: default uoz: 0.30 uwv: 1.50 pressure: 1013.25
+2025-11-17 03:41:20: current uoz: 0.30 uwv: 1.50 pressure: 1013.25
+2025-11-17 03:41:20: Using DSF atmospheric correction
+2025-11-17 03:41:20: Scene too small for tiling (1x2 tiles of 100x100 pixels), using fixed processing
+2025-11-17 03:41:20: Writing lon
+2025-11-17 03:41:20: Wrote lon
+2025-11-17 03:41:20: Writing lat
+2025-11-17 03:41:20: Wrote lat
+2025-11-17 03:41:20: Writing x
+2025-11-17 03:41:20: Wrote x
+2025-11-17 03:41:20: Writing y
+2025-11-17 03:41:20: Wrote y
+2025-11-17 03:41:20: Loading LUTs ['ACOLITE-LUT-202110-MOD1', 'ACOLITE-LUT-202110-MOD2']
+2025-11-17 03:41:24: Loading LUTs took 4.1 s
+2025-11-17 03:41:24: 1
+2025-11-17 03:41:24: rhot_443
+2025-11-17 03:41:24: 1
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.178
+2025-11-17 03:41:24: S2A_MSI/B1 ACOLITE-LUT-202110-MOD1 took 0.003s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B1 ACOLITE-LUT-202110-MOD2 took 0.006s (StdLUT)
+2025-11-17 03:41:24: 2
+2025-11-17 03:41:24: rhot_492
+2025-11-17 03:41:24: 2
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.151
+2025-11-17 03:41:24: S2A_MSI/B2 ACOLITE-LUT-202110-MOD1 took 0.004s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B2 ACOLITE-LUT-202110-MOD2 took 0.005s (StdLUT)
+2025-11-17 03:41:24: 3
+2025-11-17 03:41:24: rhot_560
+2025-11-17 03:41:24: 3
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.131
+2025-11-17 03:41:24: S2A_MSI/B3 ACOLITE-LUT-202110-MOD1 took 0.004s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B3 ACOLITE-LUT-202110-MOD2 took 0.003s (StdLUT)
+2025-11-17 03:41:24: 4
+2025-11-17 03:41:24: rhot_665
+2025-11-17 03:41:24: 4
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.099
+2025-11-17 03:41:24: S2A_MSI/B4 ACOLITE-LUT-202110-MOD1 took 0.005s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B4 ACOLITE-LUT-202110-MOD2 took 0.004s (StdLUT)
+2025-11-17 03:41:24: 5
+2025-11-17 03:41:24: rhot_704
+2025-11-17 03:41:24: 5
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.086
+2025-11-17 03:41:24: S2A_MSI/B5 ACOLITE-LUT-202110-MOD1 took 0.005s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B5 ACOLITE-LUT-202110-MOD2 took 0.004s (StdLUT)
+2025-11-17 03:41:24: 6
+2025-11-17 03:41:24: rhot_740
+2025-11-17 03:41:24: 6
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.081
+2025-11-17 03:41:24: S2A_MSI/B6 ACOLITE-LUT-202110-MOD1 took 0.005s (StdLUT)
+2025-11-17 03:41:24: S2A_MSI/B6 ACOLITE-LUT-202110-MOD2 took 0.005s (StdLUT)
+2025-11-17 03:41:24: 7
+2025-11-17 03:41:24: rhot_783
+2025-11-17 03:41:24: 7
+2025-11-17 03:41:24: intercept
+2025-11-17 03:41:24: 0.083
+2025-11-17 03:41:24: S2A_MSI/B7 ACOLITE-LUT-202110-MOD1 took 0.005s (StdLUT)
+2025-11-17 03:41:25: S2A_MSI/B7 ACOLITE-LUT-202110-MOD2 took 0.003s (StdLUT)
+2025-11-17 03:41:25: 8
+2025-11-17 03:41:25: rhot_833
+2025-11-17 03:41:25: 8
+2025-11-17 03:41:25: intercept
+2025-11-17 03:41:25: 0.071
+2025-11-17 03:41:25: S2A_MSI/B8 ACOLITE-LUT-202110-MOD1 took 0.004s (StdLUT)
+2025-11-17 03:41:25: S2A_MSI/B8 ACOLITE-LUT-202110-MOD2 took 0.003s (StdLUT)
+2025-11-17 03:41:25: 8A
+2025-11-17 03:41:25: rhot_865
+2025-11-17 03:41:25: 8A
+2025-11-17 03:41:25: intercept
+2025-11-17 03:41:25: 0.080
+2025-11-17 03:41:25: S2A_MSI/B8A ACOLITE-LUT-202110-MOD1 took 0.007s (StdLUT)
+2025-11-17 03:41:25: S2A_MSI/B8A ACOLITE-LUT-202110-MOD2 took 0.005s (StdLUT)
+2025-11-17 03:41:25: 11
+2025-11-17 03:41:25: rhot_1614
+2025-11-17 03:41:25: 11
+2025-11-17 03:41:25: intercept
+2025-11-17 03:41:25: 0.055
+2025-11-17 03:41:25: S2A_MSI/B11 ACOLITE-LUT-202110-MOD1 took 0.004s (StdLUT)
+2025-11-17 03:41:25: S2A_MSI/B11 ACOLITE-LUT-202110-MOD2 took 0.003s (StdLUT)
+2025-11-17 03:41:25: 12
+2025-11-17 03:41:25: rhot_2202
+2025-11-17 03:41:25: 12
+2025-11-17 03:41:25: intercept
+2025-11-17 03:41:25: 0.039
+2025-11-17 03:41:25: S2A_MSI/B12 ACOLITE-LUT-202110-MOD1 took 0.004s (StdLUT)
+2025-11-17 03:41:25: S2A_MSI/B12 ACOLITE-LUT-202110-MOD2 took 0.004s (StdLUT)
+2025-11-17 03:41:25: Choosing best fitting model: min_drmsd (2 bands)
+2025-11-17 03:41:25: Computing RMSD for model ACOLITE-LUT-202110-MOD1
+2025-11-17 03:41:25: Computing RMSD for model ACOLITE-LUT-202110-MOD1: 6.5538e-03
+2025-11-17 03:41:25: Computing RMSD for model ACOLITE-LUT-202110-MOD2
+2025-11-17 03:41:25: Computing RMSD for model ACOLITE-LUT-202110-MOD2: 1.2952e-03
+2025-11-17 03:41:25: Selected model ACOLITE-LUT-202110-MOD2: aot 0.976, RMSD 1.30e-03
+2025-11-17 03:41:25: use_revlut
+2025-11-17 03:41:25: False
+2025-11-17 03:41:25: Wrote rhot_443
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 1
+2025-11-17 03:41:25: 443
+2025-11-17 03:41:25: 0.998
+2025-11-17 03:41:25: Wrote rhos_443
+2025-11-17 03:41:25: S2A_MSI/B1 took 0.0s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_492
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 2
+2025-11-17 03:41:25: 492
+2025-11-17 03:41:25: 0.983
+2025-11-17 03:41:25: Wrote rhos_492
+2025-11-17 03:41:25: S2A_MSI/B2 took 0.0s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_560
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 3
+2025-11-17 03:41:25: 560
+2025-11-17 03:41:25: 0.932
+2025-11-17 03:41:25: Wrote rhos_560
+2025-11-17 03:41:25: S2A_MSI/B3 took 0.0s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_665
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 4
+2025-11-17 03:41:25: 665
+2025-11-17 03:41:25: 0.960
+2025-11-17 03:41:25: Wrote rhos_665
+2025-11-17 03:41:25: S2A_MSI/B4 took 0.1s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_704
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 5
+2025-11-17 03:41:25: 704
+2025-11-17 03:41:25: 0.954
+2025-11-17 03:41:25: Wrote rhos_704
+2025-11-17 03:41:25: S2A_MSI/B5 took 0.1s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_740
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 6
+2025-11-17 03:41:25: 740
+2025-11-17 03:41:25: 0.963
+2025-11-17 03:41:25: Wrote rhos_740
+2025-11-17 03:41:25: S2A_MSI/B6 took 0.1s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_783
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 7
+2025-11-17 03:41:25: 783
+2025-11-17 03:41:25: 0.985
+2025-11-17 03:41:25: Wrote rhos_783
+2025-11-17 03:41:25: S2A_MSI/B7 took 0.0s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_833
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 8
+2025-11-17 03:41:25: 833
+2025-11-17 03:41:25: 0.943
+2025-11-17 03:41:25: Wrote rhos_833
+2025-11-17 03:41:25: S2A_MSI/B8 took 0.1s (StdLUT)
+2025-11-17 03:41:25: Wrote rhot_865
+2025-11-17 03:41:25: Computing surface reflectance
+2025-11-17 03:41:25: 8A
+2025-11-17 03:41:25: 865
+2025-11-17 03:41:25: 0.997
+2025-11-17 03:41:26: Wrote rhos_865
+2025-11-17 03:41:26: S2A_MSI/B8A took 0.0s (StdLUT)
+2025-11-17 03:41:26: Wrote rhot_945
+2025-11-17 03:41:26: Band 9 at 945 nm has tgas < min_tgas_rho (0.30 < 0.70)
+2025-11-17 03:41:26: Wrote rhot_1373
+2025-11-17 03:41:26: Band 10 at 1373 nm has tgas < min_tgas_rho (0.01 < 0.70)
+2025-11-17 03:41:26: Wrote rhot_1614
+2025-11-17 03:41:26: Computing surface reflectance
+2025-11-17 03:41:26: 11
+2025-11-17 03:41:26: 1614
+2025-11-17 03:41:26: 0.963
+2025-11-17 03:41:26: Wrote rhos_1614
+2025-11-17 03:41:26: S2A_MSI/B11 took 0.0s (StdLUT)
+2025-11-17 03:41:26: Wrote rhot_2202
+2025-11-17 03:41:26: Computing surface reflectance
+2025-11-17 03:41:26: 12
+2025-11-17 03:41:26: 2202
+2025-11-17 03:41:26: 0.921
+2025-11-17 03:41:26: Wrote rhos_2202
+2025-11-17 03:41:26: S2A_MSI/B12 took 0.0s (StdLUT)
+2025-11-17 03:41:26: Wrote ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L2R.nc
+2025-11-17 03:41:26: Wrote ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L2R_rgb_rhos.png
+2025-11-17 03:41:26: L2W keeping data in memory: False
+2025-11-17 03:41:26: ['rhot_443', 'rhot_492', 'rhot_560', 'rhot_665', 'rhot_704', 'rhot_740', 'rhot_783', 'rhot_833', 'rhot_865', 'rhot_945', 'rhot_1373', 'rhot_1614', 'rhot_2202']
+2025-11-17 03:41:26: [443, 492, 560, 665, 704, 740, 783, 833, 865, 945, 1373, 1614, 2202]
+2025-11-17 03:41:26: ['rhos_443', 'rhos_492', 'rhos_560', 'rhos_665', 'rhos_704', 'rhos_740', 'rhos_783', 'rhos_833', 'rhos_865', 'rhos_1614', 'rhos_2202']
+2025-11-17 03:41:26: [443, 492, 560, 665, 704, 740, 783, 833, 865, 1614, 2202]
+2025-11-17 03:41:26: Running ACOLITE flagging function for ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L2R.nc.
+2025-11-17 03:41:26: Computing non water threshold mask.
+2025-11-17 03:41:26: Computing non water threshold mask from rhot_1614 > 0.0215.
+2025-11-17 03:41:26: Computing cirrus mask.
+2025-11-17 03:41:26: Computing cirrus mask from rhot_1373 > 0.005.
+2025-11-17 03:41:27: Computing TOA limit mask.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_443 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_492 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_560 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_665 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_704 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_740 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_783 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_833 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_865 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_945 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_1373 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_1614 > 0.3.
+2025-11-17 03:41:27: Computing TOA limit mask from rhot_2202 > 0.3.
+2025-11-17 03:41:27: Computing negative reflectance mask.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_443.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_492.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_560.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_665.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_704.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_740.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_783.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_833.
+2025-11-17 03:41:27: Computing negative reflectance mask from rhos_865.
+2025-11-17 03:41:27: Copying datasets from L2R.
+2025-11-17 03:41:27: Copying lon, base dataset lon
+2025-11-17 03:41:27: Writing lon
+2025-11-17 03:41:27: Copying lat, base dataset lat
+2025-11-17 03:41:27: Writing lat
+2025-11-17 03:41:27: Copying rhos_443, base dataset rhos_443
+2025-11-17 03:41:27: Writing rhos_443
+2025-11-17 03:41:27: Copying rhos_492, base dataset rhos_492
+2025-11-17 03:41:27: Writing rhos_492
+2025-11-17 03:41:27: Copying rhos_560, base dataset rhos_560
+2025-11-17 03:41:27: Writing rhos_560
+2025-11-17 03:41:27: Copying rhos_665, base dataset rhos_665
+2025-11-17 03:41:27: Writing rhos_665
+2025-11-17 03:41:27: Copying rhos_704, base dataset rhos_704
+2025-11-17 03:41:27: Writing rhos_704
+2025-11-17 03:41:27: Copying rhos_740, base dataset rhos_740
+2025-11-17 03:41:27: Writing rhos_740
+2025-11-17 03:41:27: Copying rhos_783, base dataset rhos_783
+2025-11-17 03:41:27: Writing rhos_783
+2025-11-17 03:41:27: Copying rhos_833, base dataset rhos_833
+2025-11-17 03:41:27: Writing rhos_833
+2025-11-17 03:41:27: Copying rhos_865, base dataset rhos_865
+2025-11-17 03:41:27: Writing rhos_865
+2025-11-17 03:41:27: Copying rhos_1614, base dataset rhos_1614
+2025-11-17 03:41:27: Writing rhos_1614
+2025-11-17 03:41:27: Copying rhos_2202, base dataset rhos_2202
+2025-11-17 03:41:28: Writing rhos_2202
+2025-11-17 03:41:28: Wrote ./STUDY_DATASET_PROCESSEDS/ACOLITE_results_study\ACOLITE_study_results_S2A_MSIL1C_20200617T101031_N0500_R022_T30NYM/S2A_MSI_2020_06_17_10_29_38_T30NYM_L2W.nc
